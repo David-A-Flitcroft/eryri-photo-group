@@ -43,7 +43,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 103,
+    "uniqCompNum": 109,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -3952,6 +3952,25 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>3rd Open Competition  -  General\n</b><b style=\"font-size: 1rem;\"></b></p><p><b>Judged by the Shutterbugs Creative Forum.\n</b></p><p>In total 26 clubs took part in our group with a total of 150 images being submitted, interestingly the\n<span style=\"font-size: 1rem;\">highest score given in this competition, was for one image to score 14 and 60% of the images&nbsp;</span><span style=\"font-size: 1rem;\">scored 10 or less!&nbsp;</span><span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></p><p>Owl in Flight   by   Jan Wilson Chalon         8.\n</p><p>Are we there yet     by    Philip Chadwick     8.\n</p><p>Broken Doll    by   Sharon Prenton Jones     12     Award.\n</p><p>Sunrise at the pier     by      Tanya Liepins      10    HM.\n</p><p>The secret book   by     Robert Prenton Jones     9.\n</p><p>One day old      by     Andy Polakowski       9.\n<span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></p><p>In this the third round we came in 4th place.  Many thanks to all who sent in their images and a special mention to Sharon who got an award for Broken Doll and also to Tanya for Sunrise at the Pier which \n<span style=\"font-size: 1rem;\">got a HM - Honourable Mention    [Tanya’s first entry into PSA with the Eryri Group].&nbsp;</span></p><p>Overall,as this is the end of this PSA season,  we as the Eryri  Photo Group came ‘First’  in the open section, so a big thank you to all for such a great selection of images that you sent in.\n<span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></p><p><span style=\"font-size: 1rem;\">John Bell</span></p><p><b>PSA Travel competition.\n<span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></b></p><p><b>The competition was judged by Sun Lakes Camera Club, USA.\n</b></p><p>18 clubs took part with a total of 108 images of which 101 of the images scored 11 or less!\n<span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></p><p>Catnap in India    by    Phil Chadwick      10.\n</p><p>Minding the pot    by    Ian O’Neill       11.\n</p><p>My Grandfather     by     Jean Chadwick      8.\n</p><p>On the streets of Delhi     by    John Bell     11   HM.\n</p><p>Standing for peace    by    Linda Bell      7.\n</p><p>Vatican Cardinal    by    Andy Polakowski     8.\n<span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></p><p>We came 5th out of 18 clubs in round three.\n<span style=\"font-size: 1rem;\">As this was the last competition of the season overall we came 10th place out of 18 clubs.&nbsp;</span><span style=\"font-size: 1rem;\">&nbsp;&nbsp;</span></p><p>Many thanks to all who took part!\n</p><p>[Images are below]</p><p>\n</p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rY6e46dy7W",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-30"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
             ".mbr-slider .carousel-control": {
               "background": "#1b1b1b"
             },
@@ -4017,7 +4036,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
           "_anchor": "gallery1-2t",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
