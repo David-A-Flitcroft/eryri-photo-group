@@ -4206,6 +4206,15 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-ryG2L4qzHD {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ryG2L4qzHD .mbr-text,
+.cid-ryG2L4qzHD blockquote {
+  color: #767676;
+}
 .cid-rts7xrqEAk {
   padding-top: 60px;
   padding-bottom: 90px;
@@ -4268,13 +4277,12 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-ryG2L4qzHD {
+.cid-rY688UeU2w {
   padding-top: 30px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
+  padding-bottom: 15px;
+  background-color: #efefef;
 }
-.cid-ryG2L4qzHD .mbr-text,
-.cid-ryG2L4qzHD blockquote {
+.cid-rY688UeU2w P {
   color: #767676;
 }
 .cid-ryG3ZlgKsc {
